@@ -13,7 +13,7 @@ html,body
     height: 100%;
 }
 
-/* Web top Styling */
+/* Web top Styling/Header styling */
 
 .webtop
 {
@@ -32,6 +32,7 @@ html,body
     border-radius: 50%;
 
 }
+
 
 nav
 {
@@ -111,7 +112,7 @@ nav p:active
 
 
 
-/* Herosection  */
+/* Herosection (main-section1)  */
 
 .herosection
 {
@@ -158,7 +159,7 @@ nav p:active
     width: 8rem;
 }
 
-/* Clients setcion */
+/* Clients section (main-section2) */
 
 .clients
 {
@@ -199,7 +200,7 @@ nav p:active
 
 }
 
-/* Contact us section */
+/* Contact us section (main-section3) */
 
 .contact_us
 {
