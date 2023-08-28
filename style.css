@@ -63,7 +63,7 @@ nav p:active
     transform: scale(0.9);
 }
 
-
+/* Web top Part 2 */
 .webtop-part2
 {
     height: 80%;
@@ -263,3 +263,164 @@ footer p
     text-align: right;
     font-size: 0.8rem;
 }
+
+
+/* Media Queries for mobiles */
+
+@media (max-width:767px) 
+{
+
+    /* Navbar Media Queries */
+
+nav 
+{
+    justify-content: center;
+    padding-left: 0.5rem;
+    gap: 1rem;
+
+}   
+
+/* Webtop part 2 media queries */
+
+.webtop-part2 h1
+{
+    font-weight: bold;
+    font-size:1.5rem;
+    margin-bottom: 0.7rem;
+
+}
+
+.webtop-part2 #text
+{
+    font-size: 0.7rem;
+    /* text-align: center; */
+    margin:0.7rem 0rem;
+
+    display: none;
+
+}
+
+/* Hero section  mediaqueries (main-section1)*/
+
+.herosection
+{
+    width: auto;
+    height: auto;
+}
+
+.herosection > h1
+{
+    padding: 0.5rem 0rem;
+    font-size: 1.7rem;
+}
+
+
+.threemenus
+{
+    flex-direction: column;
+    justify-content: space-evenly;
+    width: auto;
+    height: auto;
+}
+
+.menu 
+{
+    padding: 0.8rem;
+    margin: 0.8rem;
+}
+
+
+.menu img
+{
+    height: 5rem;
+    width: 5rem;
+}
+
+.menu h2 
+{
+    font-size: 1.2rem;
+    margin: 0.4rem 0;
+}
+
+.menu p 
+{
+    font-size: 0.5rem;
+}
+
+/* Clients setcion mediaqueries (main-section2s)  */
+.clients
+{
+    width: auto;
+    height: auto;
+}
+
+.clients h1
+{
+    padding: 1rem 0rem;
+    font-size: 1.7rem;
+}
+
+.clientsimgs
+{
+    flex-direction: column;
+    align-items: center;
+    justify-content: flex-start;
+    gap: 1rem;
+}
+
+.clientsimgs > img
+{
+    height: 3.8rem;
+    width: 3.8rem;
+}
+
+/*Contact us mediaqueries (main-section3)  */
+
+.contact_us
+{
+    width:auto;
+    height: auto;
+}
+
+.contact_us h1
+{
+    padding: 1rem 0rem;
+    font-size: 1.7rem;
+}
+
+.customerinfo input
+{
+    width: 18rem;
+}
+
+.customerinfo button
+{
+   margin-bottom: 0.5rem;
+
+}
+/* Footer media queries */
+footer 
+{
+    text-align: center;
+}
+
+}
+
+/* Media Queries for tablets */
+
+@media (min-width: 768px) and (max-width: 1023px)
+{
+    .menu 
+{
+    padding: 1rem;
+    margin: 1rem;
+}
+
+.menu img
+{
+    height: 5rem;
+    width: 5rem;
+}
+
+}
+
