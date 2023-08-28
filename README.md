@@ -1,5 +1,4 @@
 
-```markdown
 # Food Delivery Web - A Static Website for Food Delivery Services
 
 This repository contains a static website project for a food delivery service. The website showcases various sections, including a navigation bar, services section, clients section, and a contact form.
@@ -35,6 +34,6 @@ The website content is fictional and is intended for demonstration purposes only
 
 **Feel free to modify and customize the project to further develop your HTML and CSS skills!**
 
-```
+
 
 Please make sure to adjust the URLs, folder names, and other details to match your project structure. Also, ensure that you have the appropriate images and assets in the specified paths.
