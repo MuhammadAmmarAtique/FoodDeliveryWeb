@@ -245,3 +245,21 @@ nav p:active
     width: 8rem;
 
 }
+
+
+/* Footer styling */
+footer div
+{
+    width:100%;
+    height: 5vh;
+    background-color: rgba(0, 0, 0, 0.9);
+    padding: 1rem;
+}
+
+footer p
+{
+    color: white;
+    word-spacing: 0.2rem;
+    text-align: right;
+    font-size: 0.8rem;
+}
