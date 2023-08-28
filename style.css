@@ -46,6 +46,22 @@ nav
     padding-left: 1.5rem;
 }
 
+nav p
+{
+    cursor: pointer;
+}
+
+nav p:hover
+{
+    background-color: white;
+    color: black;
+}
+
+nav p:active
+{
+    transform: scale(0.9);
+}
+
 
 .webtop-part2
 {
@@ -82,4 +98,14 @@ nav
     color: white;
     border-radius: 0.2rem;
     border: none;
+    cursor: pointer;
 }
+.webtop-part2 button:hover
+{
+    transform: scale(1.1);
+}
+.webtop-part2 button:active
+{
+    transform: scale(0.9);
+}
+
