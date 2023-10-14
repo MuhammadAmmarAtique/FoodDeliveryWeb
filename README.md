@@ -5,7 +5,7 @@ This repository contains a static website project for a food delivery service. T
 
 ## Preview
 
-![Food Delivery Web Preview](Assets/preview.png)
+![Food Delivery Web Preview](Assets/screenshot.png)
 
 ## Features
 
